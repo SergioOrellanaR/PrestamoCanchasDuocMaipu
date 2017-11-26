@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f59ea8f6a5174351811c70b90d13c136" Name="Diagram1">
+        <EntityTypeShape EntityType="Automate_Model.account" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Automate_Model.block" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Automate_Model.contact" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Automate_Model.dayoftheweek" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Automate_Model.infrastructure" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Automate_Model.petition" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="Automate_Model.FK__petition__accoun__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="Automate_Model.FK__petition__block__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="Automate_Model.FK__petition__dayoft__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="Automate_Model.FK__petition__infras__5441852A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
